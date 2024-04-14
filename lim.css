@@ -1,0 +1,139 @@
+/*immagine sfondo*/
+body{
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    
+    
+}
+
+/*border box applicato a tutto*/
+* {
+    box-sizing: border-box;
+}
+
+/*qui c'è la creazione del rettangolo semi-trasparente che contiene le info*/
+.container{
+    width: 65%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2%;
+    margin: auto;
+}
+
+/*gestione delle dimensioni del logo*/
+#logo {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;   
+
+}
+
+/*posizione e colore del titolo principale*/
+header > h1{
+    color: rgb(12, 255, 12);
+    text-align: center;
+}
+
+/*gestione dimensioni e colore della barra del menù*/
+nav {
+    width: 80%;
+    background-color: rgb(18, 219, 18);
+    margin: auto;
+    margin-bottom: 1%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*margine applicato ai pulsanti dentro il menù per metterli centrali*/
+nav > span{
+    margin-left: 35%;
+}
+
+/*inizio della gestione del primo Div*/
+/*Gestione del colore delle scritte e dello spazio da lasciare rispetto al riquadro*/
+.gino{
+    margin-left: 10%;
+    color: white;
+}
+
+/*inline-block per affiancare l'h2 alla checkbox*/
+.gino > h2{
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+
+/*gestione della barra di carica dei monopattini*/
+.charge1{
+    width: 25%;
+    height: 30px;
+    background-color: rgba(255, 182, 45, 0.932);
+    border-radius: 5%;
+    margin-bottom: 4%;
+}
+
+/*inizio della gestione del secondo Div*/
+/*Gestione del colore delle scritte e dello spazio da lasciare rispetto al riquadro*/
+.mike{
+    margin-left: 10%;
+    color: white;
+}
+
+/*inline-block per affiancare l'h2 alla checkbox*/
+.mike > h2{
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+/*gestione della barra di carica dei monopattini*/
+.charge2{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(40, 180, 40);
+    border-radius: 5%;
+    margin-bottom: 4%;
+}
+
+/*inizio della gestione del terzo Div*/
+/*Gestione del colore delle scritte e dello spazio da lasciare rispetto al riquadro*/
+.fede{
+    margin-left: 10%;
+    color: white;
+
+}
+
+/*inline-block per affiancare l'h2 alla checkbox*/
+.fede > h2{
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+/*gestione della barra di carica dei monopattini*/
+.charge3{
+    width: 10%;
+    height: 30px;
+    background-color: rgba(224, 48, 48, 0.856);
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+/*questo serve ad avvicinare il nome della via al nome del monopattino*/
+h3{
+    margin-top: 0%;
+}
+
+/*personalizzazione footer in basso a destra*/
+footer > span{
+    color: white;
+    margin-left: 78%;
+}
+
+/*qui ho semplicemente voluto sottolineare il mio nome*/
+footer i{
+    text-decoration: underline rgb(10, 245, 10);
+    
+}
+
+
